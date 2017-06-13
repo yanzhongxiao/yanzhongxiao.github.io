@@ -1,0 +1,220 @@
+/*!
+ * shengbangshenghua
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: arial; }
+
+.container {
+  width: 1200px;
+  margin: auto; }
+
+.col-4 {
+  width: 33.3333%;
+  float: left;
+  padding: 15px; }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+@media (max-width: 768px) {
+  .container {
+    width: 350px; }
+  .col-4 {
+    width: 100%; }
+  .row {
+    margin: 0; } }
+
+.container::after,
+.row::after {
+  display: table;
+  clear: both;
+  content: ''; }
+
+header {
+  border-bottom: 1px solid #dee0df; }
+  header ul li {
+    list-style: none;
+    float: left; }
+    header ul li a {
+      display: block;
+      padding: 33px 25px;
+      color: #525252;
+      font-size: 14px;
+      text-decoration: none; }
+    header ul li a:hover {
+      color: #fff;
+      background-color: #fc978a; }
+    header ul li .logo {
+      padding-top: 24px;
+      padding-bottom: 22px;
+      border-right: 2px solid #dee0df; }
+    header ul li .logo:hover {
+      background-color: #fff; }
+
+header::after, header ul::after, .kong::after, footer::after {
+  display: table;
+  clear: both;
+  content: ''; }
+
+.text1 {
+  text-align: center; }
+  .text1 p {
+    padding-top: 104px;
+    margin-bottom: 52px;
+    font-size: 34px;
+    color: #545454; }
+  .text1 span {
+    color: #b0b0b0;
+    display: block;
+    margin-bottom: 81px; }
+
+.main h4 {
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+  color: #f46a65;
+  margin-bottom: 50px; }
+
+.main h4::before {
+  content: "";
+  width: 35%;
+  height: 1px;
+  background-color: #e5e5e5;
+  top: 8px;
+  display: block;
+  position: absolute; }
+
+.main h4::after {
+  content: "";
+  width: 35%;
+  height: 1px;
+  top: 8px;
+  right: 0;
+  background-color: #e5e5e5;
+  display: block;
+  position: absolute; }
+
+.main .col-4-li {
+  padding: 15px 30px;
+  border: 2px solid #e5e5e5; }
+  .main .col-4-li .top {
+    margin-bottom: 50px;
+    height: 50px;
+    margin: -15px -30px;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    padding-bottom: 50px; }
+    .main .col-4-li .top span {
+      color: #feefef;
+      font-size: 20px;
+      line-height: 50px;
+      display: inline-block;
+      float: left;
+      color: #909090; }
+    .main .col-4-li .top img {
+      float: right; }
+  .main .col-4-li p {
+    color: #616161;
+    font-size: 14px;
+    line-height: 1.8em;
+    display: table;
+    clear: both;
+    content: ''; }
+
+.main h5 {
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+  color: #f46a65;
+  margin-bottom: 50px; }
+
+.main h5::before {
+  content: "";
+  width: 35%;
+  height: 1px;
+  background-color: #e5e5e5;
+  bottom: 8px;
+  display: block;
+  position: absolute; }
+
+.main h5::after {
+  content: "";
+  width: 35%;
+  height: 1px;
+  bottom: 8px;
+  right: 0;
+  background-color: #e5e5e5;
+  display: block;
+  position: absolute; }
+
+.main h6 {
+  font-size: 16px;
+  color: #494949;
+  margin-bottom: 10px; }
+
+.main .col-border {
+  padding: 0 30px 0 0;
+  border: 0;
+  border-right: 2px solid #e5e5e5; }
+
+.text2 {
+  text-align: center; }
+  .text2 p {
+    padding-top: 104px;
+    margin-bottom: 32px;
+    font-size: 34px;
+    color: #545454; }
+  .text2 span {
+    color: #b0b0b0;
+    display: block;
+    margin-bottom: 21px; }
+
+footer {
+  width: 100%;
+  padding-top: 65px;
+  padding-bottom: 50px;
+  background-color: #fafafa;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer ul li {
+      float: left;
+      list-style: none; }
+      footer ul li a {
+        text-decoration: none;
+        display: block;
+        padding: 5px 10px;
+        color: #6d6d6d; }
+      footer ul li a:hover {
+        text-decoration: underline; }
+  footer p {
+    margin-top: 50px;
+    color: #b7b7b7; }
+
+@media (max-width: 768px) {
+  .main h4::before,
+  .main h4::after {
+    width: 20%; }
+  .main h5::before,
+  .main h5::after {
+    width: 20%; }
+  .main .col-border {
+    border: 0; } }
+
+footer ul::after,
+footer p::after {
+  display: table;
+  clear: both;
+  content: ''; }
