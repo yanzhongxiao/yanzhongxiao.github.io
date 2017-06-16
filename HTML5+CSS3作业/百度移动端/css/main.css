@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/*! 盛邦升华 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.container-flue {
+  background-color: #f8f8f8; }
+
+.container {
+  width: 360px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.col-1 {
+  width: 8.33333333%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.col-2 {
+  width: 16.66666667%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.col-4 {
+  width: 33.33333333%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.col-11 {
+  width: 91.66666667%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.col-12 {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.row::after, .col-1::after, .col-2::after, .col-4::after, .col-11::after, .col-12::after, header::after {
+  display: table;
+  clear: both;
+  content: ""; }
+
+header {
+  color: #999999; }
+  header .container {
+    padding-bottom: 30px; }
+  header .wendu {
+    float: left; }
+    header .wendu .sun {
+      display: inline-block;
+      width: 28px;
+      height: 26px;
+      background-image: url(../img/sun.png); }
+    header .wendu span {
+      font-size: 25px; }
+  header p {
+    font-size: 12px; }
+  header .people {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/people.png);
+    float: right; }
+  header .col-12 {
+    text-align: center;
+    padding-top: 20px; }
+  header .sousuo {
+    width: 235px;
+    height: 50px;
+    border: 1px solid #999999;
+    border-radius: 3px; }
+  header .anniu {
+    width: 80px;
+    height: 48px;
+    background-color: #3388ff;
+    border: 0;
+    color: #fff;
+    cursor: pointer; }
+  header .anniu:hover {
+    background-color: #201BFF; }
+  header .col-2 {
+    cursor: pointer; }
+
+section.mian {
+  padding-top: 15px; }
+  section.mian .container {
+    border-bottom: 1px solid #f0f0f0; }
+    section.mian .container .col-12 .row {
+      margin-left: -5px;
+      margin-right: -5px; }
+      section.mian .container .col-12 .row .col-4 {
+        padding-left: 5px;
+        padding-right: 5px; }
+  section.mian h4 {
+    font-size: 18px;
+    margin-bottom: 10px; }
+  section.mian p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #999999; }
+  section.mian .col-4 img {
+    width: 100%; }
+  section.mian a {
+    text-decoration: none;
+    color: red;
+    border: 1px solid red; }
+
+footer {
+  text-align: center;
+  background-color: #f8f8f8; }
+  footer .container {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    footer .container .fankui-p {
+      font-size: 14px;
+      color: #666666; }
+      footer .container .fankui-p i {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url(../img/fankui.png); }
+    footer .container p {
+      font-size: 12px;
+      color: #999999;
+      line-height: 1.8em; }
+      footer .container p i {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-image: url(../img/gongan.png); }

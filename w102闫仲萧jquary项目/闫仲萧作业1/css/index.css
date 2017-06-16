@@ -1,0 +1,194 @@
+/*通用样式*/
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial;
+}
+/*通用样式*/
+/*框架*/
+#container{
+    width: 1345px;
+    height: 1700px;
+    margin:0 auto;
+    position: relative;
+}
+/*header*/
+header{
+    width: 1345px;
+    height: 100px;
+    margin-top: -70px;
+}
+nav{
+    margin-top: 70px;
+}
+.logo{
+    float: right;
+    width: 750px;
+    height: 100px;
+
+}
+.logo1{
+    margin-top: 10px;
+}
+.chutu{
+    float: right;
+    margin:10px;
+}
+ nav ul li{
+
+     margin:0 10px;
+     margin-top: 70px;
+     float: left;
+     list-style: none;
+     height:30px;
+     overflow: hidden;
+ }
+ nav span{
+    display: block;
+     background-color: #ffffff;
+    color:#000;
+    font-size: 14px;
+    padding:0 10px;
+    line-height: 30px;
+    height: 40px;
+}
+ nav a{
+    display: block;
+    text-decoration: none;
+    background-color: #000;
+    color:#fff;
+    font-size: 14px;
+    padding:0px 10px;
+    line-height: 30px;
+}
+ .shuangtu{
+     width: 300px;
+     height: 300px;
+     display: none;
+     position: absolute;
+     top:10px;
+     right:10px;
+     z-index:999;
+ }
+ .hetu1{
+     width: 300px;
+     height: 310px;
+     position: absolute;
+ }
+ .hetu2{
+     width: 300px;
+     height: 300px;
+     position: absolute;
+ }
+/*header*/
+
+/*section.main*/
+section.main{
+    width: 1345px;
+    height: 1500px;
+}
+.main .top{
+    width: 1345px;
+    height: 525px;
+}
+.main .top img{
+    display: none;
+    position: absolute;
+}
+.main .top{
+    overflow: hidden;
+}
+.center{
+    width: 1156px;
+    height: 362px;
+    margin:0 auto;
+}
+.main h2{
+    align:center;
+    color:#656565;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.tupian1 ul li,.tupian2 ul li{
+    float: left;
+    list-style: none;
+}
+.tupian1 img{
+    margin-top: 10px;
+}
+.tupian1 img,.tupian2 img{
+    margin:0 20px;
+}
+.tupian1 ul li,.tupian2 ul li{
+    overflow: hidden;
+    position: relative;
+}
+.tupian1 ul li a{
+    margin-top: 322px;
+    position: absolute;
+    z-index: 99;
+    top: 20px;
+    left: 20px;
+    display: block;
+    width: 249px;
+    height: 322px;
+    background: #000;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 322px;
+    padding-top: 10px;
+    font-size: 12px;
+    opacity: 0.8;
+    /*filter:alpha(opacity=80);*/
+}
+.bottom{
+    width: 1156px;
+    height: 570px;
+    margin:0 auto;
+}
+.tupian2 img{
+    margin:20px;
+}
+.tupian2 ul li a{
+    position: absolute;
+    z-index: 99;
+    top: 20px;
+    left: 20px;
+    display: block;
+    width: 249px;
+    height: 196px;
+    background: #000;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 196px;
+    padding-top: 10px;
+    font-size: 12px;
+    opacity: 0;
+    /*filter:alpha(opacity=80);*/
+}
+.tupian2 ul li:nth-child(1) a{
+    width: 538px;
+    height: 448px;
+    line-height: 448px;
+}
+/*section.main*/
+
+
+
+
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #bbbbbb;
+}
+/*footer*/
+
+/*框架*/

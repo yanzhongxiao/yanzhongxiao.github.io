@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    maragin:0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #000;
+}
+section.bjz{
+    width: 800px;
+    height: 1100px;
+    margin:auto;
+    position: relative;
+}
+section.bjz .biaoti{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+.timu1{
+    float: left;
+    width: 800px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timu2{
+    float: left;
+    width: 800px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+section.bjz .banner{
+    width: 800px;
+    height: 800px;
+    position: relative;
+    color:#fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.bjz .banner-bj{
+    position: absolute;
+    top:50px;
+    z-index: -999;
+    width: 800px;
+    height: 800px;
+    background-image: url("../images/blackhole.png");
+    background-repeat: no-repeat;
+    animation:bjz 30s infinite linear;
+}
+section.bjz .banner h3{
+    line-height: 40px;
+}
+section.bjz .banner .step1{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    top:325px;
+    left:130px;
+}
+section.bjz .banner .step2{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    top:130px;
+    left:325px;
+    /*left:325px;*/
+}
+section.bjz .banner .step2 h2,section.bjz .banner .step2 span{
+    float: left;
+}
+section.bjz .banner .step3{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    top:325px;
+    left:520px;
+}
+section.bjz .banner .step3 h2,section.bjz .banner .step3 span{
+    text-align: right;
+    float:right;
+}
+section.bjz .banner .step4{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    top:565px;
+    left:325px;
+}
+section.bjz .banner .step4 h2,section.bjz .banner .step4 span{
+    float: right;text-align: right;
+}
+section h2{
+    color:#fff;
+    font-size: 40px;
+}
+.anniu{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border:1px solid #fff;
+    background-color: deepskyblue;
+    position: absolute;
+    top:750px;
+    left:350px;
+    line-height: 30px;
+}
+.anniu a{
+    text-decoration: none;
+    color:#fff;
+}
+@keyframes bjz{
+    100%{
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(-360deg);
+    }
+}
