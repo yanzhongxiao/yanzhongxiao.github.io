@@ -1,3 +1,4 @@
+//能够限制文字的显示个数，多出来的文字出省略号
 .navbar-default {
   border-bottom: 1px solid #e7e7e7;
   height: 75px;
@@ -35,21 +36,26 @@
   }
 }
 
-//@media (max-720px){
-//  #carousel-example-generic{
-//    img{
-//      width: 100%;
-//      height: 50vh;
-//    }
-//  }
-//}
+@media (max-width: 720px) {
+  .wrap-box,.fixed-bar{
+    display: none;
+  }
+}
 
 .h3-p{
   font-size: 40px;
   text-align: center;
 }
+h2{
+  a{
+    color:#000;
+  }
+}
 h3{
   text-align: center;
+  a{
+    color:#000;
+  }
 }
 h3::after{
   display: table;
@@ -97,6 +103,8 @@ h3::after{
   }
   img{
     width: 100%;
+    height: 300px;
+    margin-top: 20px;
   }
   .se:hover{
     .col-2-se1{
@@ -129,6 +137,11 @@ h3::after{
       a{
         text-decoration: none;
         color:#373737;
+        display: block;
+        width: 70%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; //文本不换行，这样超出一行的部分被截取，显示...
       }
         a:hover{
           color:#e76200;
@@ -203,4 +216,257 @@ footer{
    line-height:  1.8em;
     color:#999999;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lianxiwomen{
+  margin-top: 50px;
+  background-image: url(../img/lianxi-women.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  .lianxi-women{
+    background-image: url(../img/lianxiwomen-bg.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    .container{
+      padding-top: 100px;
+      color:#fff;
+      form{
+        margin-top: 20px;
+        p{
+          line-height: 1.5em;
+          input{
+            color:#000;
+          }
+          #liuyan{
+            width: 100%;
+            height: 40px;
+          }
+          span{
+            color:red;
+          }
+        }
+
+        .anniu{
+          width: 100px;
+          height: 25px;
+          color:#4e6cff;
+          background-color: #51312a;
+          border:0;
+          &:hover{
+          background-color: #51161E;
+        }
+        }
+      }
+      p{
+        line-height: 1.8em;
+      }
+      a{
+        color:#fff;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+      h4{
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+
+    }
+  }
+}
+
+
+.zhichi{
+  .zhi-chi{
+    margin-top: 70px;
+    .map{
+      text-align: center;
+      img{
+        width: 100%;
+      }
+    }
+    h3{
+      margin-bottom: 30px;
+    }
+    .panel-collapse{
+      background-color: #f6f6ee;
+    }
+  }
+}
+
+
+.news{
+  .new-s{
+    margin-top: 70px;
+    padding-top: 50px;
+    .xinwen{
+      background-color: #f2f2f2;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      &:hover{
+        background-color: #8b6153;
+      }
+      .col-md-9::after{
+        display: table;
+        clear: both;
+        content:"";
+      }
+      .timer{
+        float: right;
+      }
+      h5{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 14px;
+        line-height: 1.8em;
+      }
+      .new-img{
+        img{
+          width: 100%;
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+      }
+      .new-p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    }
+    .huanye{
+      a{
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+    }
+  }
+}
+
+
+.zhan-shi {
+  margin-top: 80px;
+  h2 {
+    margin-top: 50px;
+  }
+  .nav-tabs {
+    text-align: center;
+    li {
+
+      a{
+        color:#2A2A28;
+      }
+    }
+        img {
+          width: 100%;
+        }
+    }
+  }
+.zhanshi{
+  .hezi-a{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#000;
+    &:hover{
+      color:red;
+    }
+  }
+  .zhanshi-img{
+    margin-bottom: 20px;
+  }
+}
+#hezi{
+  background-color: #f4f4f4;
+}
+
+.about-2{
+  margin-top: 100px;
+  .gongsijianjie{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    p{
+      font-size: 15px;
+      line-height: 1.6em;
+    }
+  }
+  .gongsilicheng{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    p{
+      font-size: 15px;
+      line-height: 1.6em;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .jieshao{
+    img{
+      width: 100%;
+    }
+  }
+  .he-zi-a{
+    color:#000;
+    margin-bottom: 10px;
+  }
+}
+#he-zi{
+  img{
+    width: 100%;
+    height: 250px;
+  }
+  width: 100%;
+  padding: 0 20px;
+  background-color: #f7f7ef;
+  margin-top: 20px;
 }
