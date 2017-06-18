@@ -37,7 +37,7 @@
 }
 
 @media (max-width: 720px) {
-  .wrap-box,.fixed-bar{
+  .wrap-box,.fixed-bar,video{
     display: none;
   }
 }
@@ -264,12 +264,12 @@ footer{
   background-image: url(../img/lianxi-women.jpg);
   background-size: 100% 100%;
   width: 100%;
-  height: 100vh;
+  height: 800px;
   .lianxi-women{
     background-image: url(../img/lianxiwomen-bg.png);
     background-size: 100% 100%;
     width: 100%;
-    height: 100vh;
+    height: 800px;
     margin-top: 50px;
     .container{
       padding-top: 100px;
