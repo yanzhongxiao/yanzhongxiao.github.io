@@ -158,8 +158,30 @@ h3::after{
 }
 
 
+.hezuo{
+  text-align: center;
+  background-color: #47c1b6;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  .he-zuo{
+    img{
+      height: 90px;
+      border:2px solid #999999;
+      border-radius: 10px;
+    }
+    p{
+      font-weight: bold;
+      color:#999999;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    p:hover{
+      color:#000;
+    }
+  }
+}
+
 .zhichi{
-  margin-top: 30px;
   padding-top: 40px;
   padding-bottom: 50px;
   background-color: #f6f6ee;

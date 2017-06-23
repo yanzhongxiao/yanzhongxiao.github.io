@@ -110,8 +110,24 @@ h3::after {
   .news .right-border {
     border-right: 2px solid #dddddd; }
 
+.hezuo {
+  text-align: center;
+  background-color: #47c1b6;
+  padding-top: 10px;
+  padding-bottom: 50px; }
+  .hezuo .he-zuo img {
+    height: 90px;
+    border: 2px solid #999999;
+    border-radius: 10px; }
+  .hezuo .he-zuo p {
+    font-weight: bold;
+    color: #999999;
+    font-size: 16px;
+    margin-top: 10px; }
+  .hezuo .he-zuo p:hover {
+    color: #000; }
+
 .zhichi {
-  margin-top: 30px;
   padding-top: 40px;
   padding-bottom: 50px;
   background-color: #f6f6ee; }
@@ -161,12 +177,12 @@ footer {
   background-image: url(../img/lianxi-women.jpg);
   background-size: 100% 100%;
   width: 100%;
-  height: 700px; }
+  height: 800px; }
   .lianxiwomen .lianxi-women {
     background-image: url(../img/lianxiwomen-bg.png);
     background-size: 100% 100%;
     width: 100%;
-    height: 700px;
+    height: 800px;
     margin-top: 50px; }
     .lianxiwomen .lianxi-women .container {
       padding-top: 100px;
