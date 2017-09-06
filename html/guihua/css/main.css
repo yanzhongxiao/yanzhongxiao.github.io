@@ -1,0 +1,61 @@
+/*!
+ * shengbangshenghua
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  color: #69ffad;
+  font-size: 25px; }
+
+body {
+  background-image: url("../img/015.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+section {
+  width: 100%;
+  height: 80vh; }
+  section .col-md-11 img {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    width: 150px;
+    height: 200px; }
+  section .col-md-5 {
+    text-align: right; }
+  section .col-md-6 a {
+    color: #69ffad; }
+  section .col-md-12 {
+    font-size: 35px;
+    text-align: center; }
+  section .col-md-6 img {
+    width: 100px;
+    height: 100px; }
+  section .footer {
+    margin-top: 150px; }
+
+@media (max-width: 720px) {
+  body {
+    background-image: url("../img/black-bg.jpg"); }
+  section .col-md-11 img {
+    margin-left: 0; }
+  section .col-md-5 {
+    float: left; }
+  footer .col-md-4 {
+    float: left; }
+  footer .col-md-5 {
+    float: left; } }
+
+.kong {
+  height: 100px; }
+
+footer .col-md-4 {
+  text-align: right; }
+
+footer .col-md-5 {
+  text-align: right; }
+
+footer .col-md-6 img {
+  width: 100px;
+  height: 100px; }
